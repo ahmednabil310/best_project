@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/best_project/static/css/main.c3750047.chunk.css",
+    "main.js": "/best_project/static/js/main.85bf34e3.chunk.js",
+    "main.js.map": "/best_project/static/js/main.85bf34e3.chunk.js.map",
+    "runtime-main.js": "/best_project/static/js/runtime-main.fe0fefad.js",
+    "runtime-main.js.map": "/best_project/static/js/runtime-main.fe0fefad.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/best_project/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.3b3a76a2.chunk.js": "/best_project/static/js/2.3b3a76a2.chunk.js",
+    "static/js/2.3b3a76a2.chunk.js.map": "/best_project/static/js/2.3b3a76a2.chunk.js.map",
+    "index.html": "/best_project/index.html",
+    "precache-manifest.7edd903c6c76b5119d03e5054a5a08ca.js": "/best_project/precache-manifest.7edd903c6c76b5119d03e5054a5a08ca.js",
+    "service-worker.js": "/best_project/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/best_project/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.c3750047.chunk.css.map": "/best_project/static/css/main.c3750047.chunk.css.map",
+    "static/js/2.3b3a76a2.chunk.js.LICENSE.txt": "/best_project/static/js/2.3b3a76a2.chunk.js.LICENSE.txt",
+    "static/media/feature-tile-icon-01.svg": "/best_project/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/best_project/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/best_project/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/best_project/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/best_project/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/best_project/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/features-split-image-01.png": "/best_project/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/features-split-image-02.png": "/best_project/static/media/features-split-image-02.3c569239.png",
+    "static/media/features-split-image-03.png": "/best_project/static/media/features-split-image-03.87e4d053.png",
+    "static/media/App.css": "/best_project/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/logo.svg": "/best_project/static/media/logo.2810a88b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe0fefad.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.3b3a76a2.chunk.js",
+    "static/css/main.c3750047.chunk.css",
+    "static/js/main.85bf34e3.chunk.js"
+  ]
+}
