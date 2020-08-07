@@ -1,5 +1,6 @@
 import React from "react";
 import "./signup.css";
+import { Link } from "react-router-dom";
 class SignUp extends React.Component {
   constructor(props) {
     super(props);
@@ -56,10 +57,19 @@ class SignUp extends React.Component {
             placeholder="Password"
             id="password"
           />
-
-          <button type="submit" className="mt-2">
-            Sign Up
-          </button>
+          <input
+            onChange={this.handleChange}
+            name="password"
+            type="password"
+            required
+            placeholder="Password Again"
+            id="password"
+          />
+          <Link to="/">
+            <button type="submit" className="mt-2">
+              Sign Up
+            </button>
+          </Link>
         </form>
       </div>
     );

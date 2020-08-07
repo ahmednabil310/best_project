@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 export default class FirstSection extends Component {
   render() {
     return (
@@ -21,15 +20,19 @@ export default class FirstSection extends Component {
         </div>
         <div>
           <div className="d-flex justify-content-end pt-3">
-            <button
-              type="button"
-              className="btn main-button first-btn mr-3 d-inline-flex"
-            >
-              Get Started
-            </button>
-            <button type="button" className="btn main-button second-btn ">
-              View on Github
-            </button>
+            <a href="https://cruip.com/">
+              <button
+                type="button"
+                className="btn main-button first-btn mr-3 d-inline-flex"
+              >
+                Get Started
+              </button>
+            </a>
+            <a href="https://github.com/cruip/open-react-template/">
+              <button type="button" className="btn main-button second-btn ">
+                View on Github
+              </button>
+            </a>
           </div>
         </div>
       </div>

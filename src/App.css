@@ -2,6 +2,10 @@
   --first-color: #6163ff;
   --second-color: #eceded;
 }
+a {
+  text-decoration: none !important;
+  outline: none;
+}
 .parent {
   background-color: #151719 !important;
   background-image: url(../src/images/illustration-section-01.svg);
@@ -9,6 +13,9 @@
 }
 .nav-container .main-button {
   background-color: var(--first-color);
+}
+.nav-container form {
+  background-color: #151719 !important;
 }
 .nav-container p {
   padding-right: 50px;
@@ -23,10 +30,16 @@
 .nav-container p:hover {
   color: var(--second-color);
 }
+.navbar-toggler-icon {
+  color: red !important;
+}
+.navbar-toggler {
+  color: red !important;
+}
 .main-button {
   color: white !important;
   padding: 5px 23px !important;
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 
 .first-container h1 {
@@ -137,12 +150,13 @@ h1 {
 
 .cta-inner-container {
   background-color: #5658dd;
-  padding: 60px 50px;
+  padding: 47px 10px;
   background-image: url(../src/images/illustration-section-02.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 25% 100%;
+  background-position: -123% 100%;
 }
+
 .input {
   border: transparent;
   border-radius: 2px;
@@ -154,7 +168,7 @@ li {
   list-style: none;
 }
 li a {
-  padding: 15px;
+  padding: 5px;
 }
 li a svg {
   fill: #6163ff;

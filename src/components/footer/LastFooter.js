@@ -6,12 +6,12 @@ export default class LastFooter extends Component {
     return (
       <div className="container  last-container pt-3 pb-5">
         <div className="row">
-          <div className="col-md-6 last-link">
+          <div className="col-md-6 last-link ">
             Made by <a href="https://cruip.com">Cruip</a>. All right reserved
           </div>
-          <div className="col-md-6 ">
+          <div className="col-md-6">
             <div className="footer-social">
-              <ul className="list-reset d-flex flex-row justify-content-end">
+              <ul className="list-reset d-flex flex-row justify-content-end text-center ">
                 <li>
                   <Link to="/">Contact</Link>
                 </li>

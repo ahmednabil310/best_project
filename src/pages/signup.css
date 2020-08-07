@@ -1,7 +1,10 @@
+form {
+  background-color: #151719 !important;
+}
 form h1 {
   font-weight: 480;
   margin-bottom: 0;
-  color: #5cb85c;
+  color: #9ca9b3;
 }
 form a {
   text-decoration: none;
@@ -15,9 +18,9 @@ form input {
   padding: 15px 15px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #25282c;
 }
 input:focus {
-  border-color: #66afe9;
   outline: none;
 }
 button {
@@ -26,10 +29,9 @@ button {
   border: 1px solid transparent;
   font-size: 16px;
   line-height: 24px;
-  background-color: #5cb85c;
+  background-color: #6163ff;
+  color: white;
 }
 button:hover {
-  color: #fff;
-  background-color: #449d44;
-  border-color: #419641;
+  background-color: #6b6dff;
 }

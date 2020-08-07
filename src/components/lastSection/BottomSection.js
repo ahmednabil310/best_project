@@ -5,10 +5,10 @@ import third from "../../images/features-split-image-03.png";
 export default class BottomSection extends Component {
   render() {
     return (
-      <div className="container mb-5">
+      <div className="container mb-5 text-center">
         <div className="row mb-5">
-          <div className="col-lg-6 justify-content-start col-xs-12 mt-5">
-            <div className="weird-text pl-3 pb-2">lighting fast workflow</div>
+          <div className="col-lg-6 justify-content-start col-xs-12 mt-5 text-center">
+            <div className="weird-text pl-3 pb-2 ">lighting fast workflow</div>
             <h3 className="pl-3 pb-2">Data-driven insights</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
