@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 
 function Video() {
   return (
-    <Fade>
+    <Fade big>
       <div className="container">
         <div className="row">
           <div className="col d-flex justify-content-center pt-5">
