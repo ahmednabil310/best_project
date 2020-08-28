@@ -1,14 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import icon1 from "../../images/feature-tile-icon-01.svg";
 import icon2 from "../../images/feature-tile-icon-02.svg";
 import icon3 from "../../images/feature-tile-icon-03.svg";
 import icon4 from "../../images/feature-tile-icon-04.svg";
 import icon5 from "../../images/feature-tile-icon-05.svg";
 import icon6 from "../../images/feature-tile-icon-06.svg";
-export default class Content extends Component {
-  render() {
-    return (
-      <div className="container content-section">
+import Fade from "react-reveal/Fade";
+
+function Content() {
+  return (
+    <Fade>
+      <div className="container content-section" id="main">
         <div className="row justify-content-center">
           <div className="col-md-6 col-xs-12 col-lg-4 my-5">
             <div className="icon d-flex justify-content-center">
@@ -103,6 +105,8 @@ export default class Content extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+    </Fade>
+  );
 }
+
+export default Content;

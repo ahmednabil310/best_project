@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-export default class FirstSection extends Component {
-  render() {
-    return (
+import React from "react";
+import Bounce from "react-reveal/Bounce";
+function FirstSection() {
+  return (
+    <Bounce left>
       <div className="container-fluid first-container d-flex flex-column align-items-center mt-5">
         <div className="row">
           <div className="d-flex justify-content-center">
@@ -36,6 +37,8 @@ export default class FirstSection extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+    </Bounce>
+  );
 }
+
+export default FirstSection;

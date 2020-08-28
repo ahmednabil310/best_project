@@ -1,8 +1,10 @@
-import React, { Component } from "react";
-export default class Video extends Component {
-  render() {
-    return (
-      <div className="container ">
+import React from "react";
+import Fade from "react-reveal/Fade";
+
+function Video() {
+  return (
+    <Fade>
+      <div className="container">
         <div className="row">
           <div className="col d-flex justify-content-center pt-5">
             <div className="embed-responsive embed-responsive-16by9">
@@ -15,6 +17,8 @@ export default class Video extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+    </Fade>
+  );
 }
+
+export default Video;

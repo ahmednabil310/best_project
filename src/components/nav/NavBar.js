@@ -6,11 +6,11 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className="container">
-        <nav class="navbar justify-content-between nav-container">
+        <nav className="navbar justify-content-between nav-container">
           <Link to="/">
             <img src={logo} alt="" />
           </Link>
-          <form class="form-inline">
+          <form className="form-inline">
             <Link to="/">
               <p className="d-inline ml-3">Documentation</p>
             </Link>
