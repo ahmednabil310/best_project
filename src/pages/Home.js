@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/nav/NavBar";
 import FirstSection from "../components/firstSection/FirstSection";
 import Video from "../components/video/Video";
 import SecondSection from "../components/secondSection/SecondSection";
@@ -15,7 +14,6 @@ import LastFooter from "../components/footer/LastFooter";
 export const Home = () => {
   return (
     <div className="parent">
-      <NavBar />
       <FirstSection />
       <Video />
       <SecondSection />

@@ -2,6 +2,11 @@
   --first-color: #6163ff;
   --second-color: #eceded;
 }
+.navbar-toggler {
+  background-color: var(--first-color) !important;
+  color: var(--second-color) !important;
+  padding: 8px 17px !important;
+}
 a {
   text-decoration: none !important;
   outline: none;
@@ -11,15 +16,20 @@ a {
   background-image: url(../src/images/illustration-section-01.svg);
   background-repeat: no-repeat;
 }
+.nav-container {
+  margin-top: 10px;
+}
 .nav-container .main-button {
   background-color: var(--first-color);
 }
-.nav-container form {
-  background-color: #151719 !important;
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.nav-container p {
+.nav-container li a {
   padding-right: 50px;
-  padding-top: 15px;
+
   color: #9ca9b3;
   font-weight: 500;
   cursor: pointer;
@@ -30,15 +40,10 @@ a {
 .nav-container p:hover {
   color: var(--second-color);
 }
-.navbar-toggler-icon {
-  color: red !important;
-}
-.navbar-toggler {
-  color: red !important;
-}
+
 .main-button {
   color: white !important;
-  padding: 5px 23px !important;
+  padding: 7px 25px !important;
   border-radius: 5px !important;
 }
 
@@ -53,22 +58,12 @@ a {
 
 .first-container .first-btn {
   background-color: var(--first-color);
-  padding: 11px 31px !important;
-  height: 48px;
-  border: 1px solid transparent;
-  font-size: 16px;
-  line-height: 24px;
 }
 .first-container .first-btn:hover {
   background-color: #6b6dff;
 }
 .first-container .second-btn {
   background-color: #25282c;
-  padding: 11px 31px;
-  height: 48px;
-  border: 1px solid transparent;
-  font-size: 16px;
-  line-height: 24px;
 }
 .first-container .second-btn:hover {
   background-color: #2a2d32;

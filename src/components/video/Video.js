@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-
 function Video() {
   return (
     <Fade big>
