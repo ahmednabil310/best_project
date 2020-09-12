@@ -8,7 +8,16 @@ export default class LastFooter extends Component {
         <div className="container  last-container pt-3 pb-5">
           <div className="row">
             <div className="col-md-6 last-link ">
-              Made by <a href="https://cruip.com">Cruip</a>. All right reserved
+              Made by
+              <a
+                href="https://cruip.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-1"
+              >
+                Cruip
+              </a>
+              . All right reserved
             </div>
             <div className="col-md-6">
               <div className="footer-social">

@@ -12,10 +12,10 @@ export default class BottomSection extends Component {
           <Slide left>
             <div className="row mb-5">
               <div className="col-lg-6 justify-content-start col-xs-12 mt-5 text-center">
-                <div className="weird-text pl-3 pb-2 ">
+                <span className="weird-text pl-3 pb-2 ">
                   lighting fast workflow
-                </div>
-                <h3 className="pl-3 pb-2">Data-driven insights</h3>
+                </span>
+                <h2 className="pl-3 pb-2">Data-driven insights</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -50,10 +50,10 @@ export default class BottomSection extends Component {
                 </div>
               </div>
               <div className="col-lg-6 justify-content-start col-xs-12  mt-5">
-                <div className="weird-text pl-3 pb-2">
+                <span className="weird-text pl-3 pb-2">
                   lighting fast workflow
-                </div>
-                <h3 className="pl-3 pb-2">Data-driven insights</h3>
+                </span>
+                <h2 className="pl-3 pb-2">Data-driven insights</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -66,10 +66,10 @@ export default class BottomSection extends Component {
           <Slide left>
             <div className="row pt-5">
               <div className="col-lg-6 justify-content-start col-xs-12  mt-5">
-                <div className="weird-text pl-3 pb-2">
+                <span className="weird-text pl-3 pb-2">
                   lighting fast workflow
-                </div>
-                <h3 className="pl-3 pb-2">Data-driven insights</h3>
+                </span>
+                <h2 className="pl-3 pb-2">Data-driven insights</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua

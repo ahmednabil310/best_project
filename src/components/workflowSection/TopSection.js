@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import ReusableSection from "../reusableSection/ReusableSection";
-export default class SecondSection extends Component {
+
+export default class TopSection extends Component {
   render() {
     return (
       <ReusableSection
-        title="Build up the whole picture"
+        title="Workflow that just works"
         paragraph="Excepteur sint occaecat cupidatat non proident, sunt in culpa
-      qui officia deserunt mollit anim id est laborum — semper quis
-      lectus nulla at volutpat diam ut venenatis."
+               qui officia deserunt mollit anim id est laborum — semper quis
+              lectus nulla at volutpat diam ut venenatis."
       />
     );
   }

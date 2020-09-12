@@ -10,10 +10,10 @@ export default class Footer extends Component {
           <div className="row">
             <div className="col-md-6 logo-div ">
               <Link to="/">
-                <img src={img1} alt="" />
+                <img src={img1} alt="logo" />
               </Link>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-6">
               <div className="footer-social">
                 <ul className="list-reset d-flex flex-row justify-content-end">
                   <li>

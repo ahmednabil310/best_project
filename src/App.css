@@ -1,102 +1,22 @@
 * {
-  --first-color: #6163ff;
+  --first-color: #5c5ef0;
   --second-color: #eceded;
-}
-.navbar-toggler {
-  background-color: var(--first-color) !important;
-  color: var(--second-color) !important;
-  padding: 8px 17px !important;
 }
 a {
   text-decoration: none !important;
   outline: none;
 }
-.parent {
-  background-color: #151719 !important;
-  background-image: url(../src/images/illustration-section-01.svg);
-  background-repeat: no-repeat;
-}
-.nav-container {
-  margin-top: 10px;
-}
-.nav-container .main-button {
-  background-color: var(--first-color);
-}
-.nav-container ul {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.nav-container li a {
-  padding-right: 50px;
-
-  color: #9ca9b3;
-  font-weight: 500;
-  cursor: pointer;
-}
-.nav-container .main-button:hover {
-  background-color: #6b6dff;
-}
-.nav-container p:hover {
-  color: var(--second-color);
-}
-
-.main-button {
+button {
   color: white !important;
   padding: 7px 25px !important;
   border-radius: 5px !important;
 }
-
-.first-container h1 {
-  color: white;
-  font-size: 52px;
-  line-height: 62px;
-}
-.first-container h1 span {
-  color: #5658dd;
-}
-
-.first-container .first-btn {
-  background-color: var(--first-color);
-}
-.first-container .first-btn:hover {
-  background-color: #6b6dff;
-}
-.first-container .second-btn {
-  background-color: #25282c;
-}
-.first-container .second-btn:hover {
-  background-color: #2a2d32;
-}
-.content-section {
-  color: white;
-}
-.item-image {
-  background-color: #5658dd;
-  border-radius: 50%;
-  margin-bottom: 8px;
-}
-.item-content p {
-  color: #9ca9b3;
-}
-.line {
-  color: #24282c;
-}
 p {
   max-width: 75ch;
-  text-align: center;
   color: #9ca9b3;
   font-weight: 400;
   line-height: 30px;
-  letter-spacing: -0.1px;
   font-family: "Inter", sans-serif;
-}
-.weird-text {
-  color: #5658dd;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
 }
 h3,
 h4,
@@ -109,7 +29,76 @@ h1 {
   letter-spacing: -0.3px;
   color: #eceded;
 }
+.parent {
+  background-image: url(../src/images/illustration-section-01.svg);
+  background-repeat: no-repeat;
+}
+/* Start of nav styling */
+.navbar-toggler {
+  background-color: var(--first-color) !important;
+  color: var(--second-color) !important;
+}
 
+.nav-container .nav-button {
+  background-color: var(--first-color);
+}
+.nav-container li .doc {
+  padding-right: 30px;
+  color: #9ca9b3;
+  font-weight: 500;
+}
+.nav-container .nav-button:hover {
+  background-color: #6b6dff;
+}
+.nav-container .doc:hover {
+  color: var(--second-color);
+}
+/* End Of Nav Styling */
+
+/* Header Start */
+.header h1 {
+  color: white;
+}
+.header h1 span {
+  color: #5658dd;
+}
+
+.header .first-btn {
+  background-color: var(--first-color);
+}
+.header .first-btn:hover {
+  background-color: #6b6dff;
+}
+.header .second-btn {
+  background-color: #25282c;
+}
+.header .second-btn:hover {
+  background-color: #2a2d32;
+}
+/* End of header */
+
+.content-section .item-image {
+  background-color: #5658dd;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.item-content p {
+  color: #9ca9b3;
+}
+
+/* End of content section */
+
+/* workflow section */
+.weird-text {
+  color: #5658dd;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+/*end of workflow section */
+
+/* Start of cards section */
 .card {
   background: #25282c !important;
   max-width: 344px !important;
@@ -142,7 +131,9 @@ h1 {
 .item-link a:hover {
   color: #73efcc;
 }
+/* End of cards section */
 
+/* Start of cta section */
 .cta-inner-container {
   background-color: #5658dd;
   padding: 47px 10px;
@@ -151,21 +142,14 @@ h1 {
   background-size: cover;
   background-position: -123% 100%;
 }
-
-.input {
-  border: transparent;
-  border-radius: 2px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  height: 30px;
-}
+/* End of cta section */
 li {
   list-style: none;
 }
-li a {
+.footer-social a {
   padding: 5px;
 }
-li a svg {
+.footer-social li a svg {
   fill: #6163ff;
 }
 
@@ -181,7 +165,6 @@ li a svg {
 }
 .last-container li a {
   color: #717d86;
-  text-decoration: none;
 }
 .last-container li a:hover {
   color: #eceded;
@@ -236,7 +219,4 @@ li a svg {
     display: flex;
     justify-content: center;
   }
-}
-form {
-  background-color: white;
 }

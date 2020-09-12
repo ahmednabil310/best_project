@@ -5,10 +5,10 @@ import logo from "../../images/logo.svg";
 export default class NavBar extends Component {
   render() {
     return (
-      <div className="container">
-        <nav className="navbar  navbar-expand-lg navbar-light  nav-container">
+      <div className="container mt-3   ">
+        <nav className="navbar navbar-expand-lg navbar-light nav-container align-items-center">
           <Link to="/">
-            <img src={logo} alt="" />
+            <img src={logo} alt="logo" />
           </Link>
           <button
             className="navbar-toggler"
@@ -23,7 +23,7 @@ export default class NavBar extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li>
+              <li className="nav-item mb-2 mt-2">
                 <Link to="/" className="doc">
                   Documentation
                 </Link>
@@ -33,7 +33,7 @@ export default class NavBar extends Component {
                   <button
                     aria-label="signup"
                     type="button"
-                    className="btn main-button"
+                    className="btn nav-button"
                   >
                     SignUp
                   </button>

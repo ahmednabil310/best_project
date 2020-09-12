@@ -5,15 +5,16 @@ export default class Cta extends Component {
     return (
       <Slide right>
         <div className="container my-5 cta-container  cta-inner-container">
-          <div className="row  px-3">
+          <div className="row px-3">
             <div className="cta-content col-lg-6">
-              <h3>For previewing layouts and visual?</h3>
+              <h2>For previewing layouts and visual?</h2>
             </div>
             <div className="input-group mb-3 col-lg-6 justify-content-end  ">
               <input
                 type="email"
                 className="form-control col-lg-6"
                 placeholder="Your best email"
+                aria-label="email"
               />
 
               <div className="input-group-prepend">
