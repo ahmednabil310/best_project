@@ -8,7 +8,7 @@ export default class LastFooter extends Component {
         <div className="container  last-container pt-3 pb-5">
           <div className="row">
             <div className="col-md-6 last-link ">
-              All right reserved to Cruip
+              All right reserved to cruip
             </div>
             <div className="col-md-6">
               <div className="footer-social">
