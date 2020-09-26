@@ -5,7 +5,7 @@ import logo from "../../images/logo.svg";
 export default class NavBar extends Component {
   render() {
     return (
-      <div className="container mt-3   ">
+      <div className="container mt-3">
         <nav className="navbar navbar-expand-lg navbar-light nav-container align-items-center">
           <Link to="/">
             <img src={logo} alt="logo" />
