@@ -6,13 +6,13 @@ export default class Cta extends Component {
       <Slide right>
         <div className="container my-5 cta-container  cta-inner-container">
           <div className="row px-3">
-            <div className="cta-content col-lg-6">
+            <div className="cta-content col-xl-6 col-xs-12">
               <h2>For previewing layouts and visual?</h2>
             </div>
-            <div className="input-group mb-3 col-lg-6 justify-content-end  ">
+            <div className="input-group mb-3 col-xl-6 col-xs-12   ">
               <input
                 type="email"
-                className="form-control col-lg-6"
+                className="form-control col-xl-6 col-xs-12"
                 placeholder="Your best email"
                 aria-label="email"
               />

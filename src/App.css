@@ -11,6 +11,9 @@ button {
   padding: 7px 25px !important;
   border-radius: 5px !important;
 }
+button:focus{
+  outline: none !important;
+}
 p {
   max-width: 75ch;
   color: #9ca9b3;
@@ -142,6 +145,9 @@ h1 {
   background-size: cover;
   background-position: -123% 100%;
 }
+.input-group{
+  justify-content: flex-end;
+}
 /* End of cta section */
 li {
   list-style: none;
@@ -218,5 +224,10 @@ li {
   .list-reset {
     display: flex;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .input-group{
+    justify-content: flex-start
   }
 }
