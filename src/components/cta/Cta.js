@@ -12,7 +12,7 @@ export default class Cta extends Component {
             <div className="input-group mb-3 col-xl-6 col-xs-12   ">
               <input
                 type="email"
-                className="form-control col-xl-6 col-xs-12"
+                className="form-control col-xl-6 col-sm-12"
                 placeholder="Your best email"
                 aria-label="email"
               />
